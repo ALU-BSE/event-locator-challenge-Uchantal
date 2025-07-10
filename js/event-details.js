@@ -29,7 +29,7 @@ const events = [
         time: "19:30",
         location: "Downtown - City Lounge, Kigali",
         category: "food",
-        description: "Indulge in an exquisite selection of wines paired with gourmet appetizers. ",
+        description: "Indulge in an exquisite selection of wines paired with gourment appetizers. ",
         organizer: "The Shinex Catering Services group"
     },
     {
