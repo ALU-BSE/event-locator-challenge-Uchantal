@@ -29,7 +29,7 @@ const events = [
         time: "19:30",
         location: "Downtown - City Lounge, Kigali",
         category: "food",
-        description: "Indulge in an exquisite selection of wines paired with gourmet appetizers. Learn about wine regions and tasting techniques from certified sommeliers.",
+        description: "Indulge in an exquisite selection of wines paired with gourmet appetizers.",
         organizer: "The Shinex Catering Services group",
     },
     {
