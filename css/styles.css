@@ -1,0 +1,48 @@
+/* Custom styles for Event Locator */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    background-image: url('../images/event.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75); /* enhanced dark overlay for better readability */
+    z-index: 0;
+    pointer-events: none;
+}
+
+main, .container, .card, .navbar, #eventsList, #eventDetails {
+    position: relative;
+    z-index: 1;
+}
+
+h1, h2 {
+    color: #eeeff0;
+}
+
+.card, .bg-white.p-5.rounded.shadow {
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+#searchForm input, #searchForm select {
+    min-height: 48px;
+    font-size: 1.1rem;
+}
+
+#searchForm button {
+    font-size: 1.2rem;
+}
