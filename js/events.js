@@ -45,7 +45,7 @@ const events = [
     {
         id: 5,
         name: "Marathon Training Workshop",
-        date: "2025-07-14",
+        date: "2025-08-01",
         time: "08:00",
         location: "ALU, Kigali",
         category: "health",
